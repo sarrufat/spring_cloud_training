@@ -1,4 +1,4 @@
-package shared;
+package com.sarrufat.photo.app.ws.shared;
 
 import org.springframework.stereotype.Service;
 

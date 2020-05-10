@@ -1,13 +1,13 @@
 package com.sarrufat.photo.app.users.userservice.impl;
 
 
+import com.sarrufat.photo.app.ws.shared.Utils;
 import com.sarrufat.photo.app.users.ui.model.request.UpdateUserDetailsModelRequest;
 import com.sarrufat.photo.app.users.ui.model.request.UserDetailsModelRequest;
 import com.sarrufat.photo.app.users.ui.model.response.UserRest;
 import com.sarrufat.photo.app.users.userservice.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import shared.Utils;
 
 import java.util.HashMap;
 import java.util.Map;
