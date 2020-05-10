@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.sarrufat</groupId>
-	<artifactId>PhotoAppDiscoveryService</artifactId>
+	<artifactId>photo.app.users</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>PhotoAppDiscoveryService</name>
-	<description>PhotoApp Eureka discovery service</description>
+	<name>photo.app.users</name>
+	<description>User Microservice</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -21,14 +21,20 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+			<optional>true</optional>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
