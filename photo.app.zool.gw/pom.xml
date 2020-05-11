@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.sarrufat</groupId>
-	<artifactId>photo.app.zool.gw</artifactId>
+	<artifactId>photo.app.zuul.gw</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>photo.app.zool.gw</name>
-	<description>Zool app gateway</description>
+	<name>photo.app.zuul.gw</name>
+	<description>Zuul app gateway</description>
 
 	<properties>
 		<java.version>1.8</java.version>

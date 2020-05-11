@@ -1,4 +1,4 @@
-package com.sarrufat.photo.app.zool.gw;
+package com.sarrufat.photo.app.zuul.gw;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

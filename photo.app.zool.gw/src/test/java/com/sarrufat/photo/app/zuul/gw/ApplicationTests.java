@@ -1,4 +1,4 @@
-package com.sarrufat.photo.app.zool.gw;
+package com.sarrufat.photo.app.zuul.gw;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
